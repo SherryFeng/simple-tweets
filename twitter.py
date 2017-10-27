@@ -8,5 +8,5 @@ auth.set_access_token(access_token, access_token_secret)
 # Creation of the actual interface, using authentication
 api = tweepy.API(auth)
  
-# Sample method, used to update a status
+# Sample method, used to print my info
 print api.me()
